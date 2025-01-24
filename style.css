@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Georgia";
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
