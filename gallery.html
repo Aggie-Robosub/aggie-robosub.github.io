@@ -3,8 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-</head>
-<body>
+    <style>
+        :root {
+            --aggie-blue: #00263A;
+            --rose-quartz: #B098A4;
+            --aero: #23BDDF;
+            --snow: #FFF9FB;
+        }
 
+        @font-face {
+            font-family: RobotoFlex;
+            src: url("new assets/RobotoFlex.ttf");
+        }
+
+        body {
+            color: var(--aggie-blue);
+        }
+
+        .large_box {
+            border: 1px solid var(--snow);
+            margin: 10px;
+            padding: 10px;
+
+            display: flex;
+            flex-direction: column;
+
+
+        }
+
+        .large_box p {
+            font-family: "RobotoFlex", sans-serif;
+            font-size: 30px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            color: var(--snow);
+
+        }
+
+        .image {
+            width: calc(25% - 7.5px);
+        }
+
+        .image_container {
+            width: 100%;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+
+        }
+    </style>
+    <!--<link rel="stylesheet" href="gallery_style.css">-->
+</head>
+<body style="background-color:var(--aggie-blue)">
+    <div class="large_box">
+        <p> hello</p>
+        <div class="image_container">
+            <img src="assets/img/sub3.JPG" alt="second gen poseidon sub" class="image">
+            <img src="assets/img/sub3.JPG" alt="second gen poseidon sub" class="image">
+            <img src="assets/img/sub3.JPG" alt="second gen poseidon sub" class="image">
+            <img src="assets/img/sub3.JPG" alt="second gen poseidon sub" class="image">
+
+        </div>
+
+    </div>
 </body>
 </html>
