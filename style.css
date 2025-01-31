@@ -25,6 +25,11 @@ palette
     margin-right: auto;
     width: 25%;
 }
+.image-center {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .top-bar{
     margin-left: 80%;
