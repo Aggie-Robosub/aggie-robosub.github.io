@@ -11,10 +11,14 @@ palette
 255, 158, 71
  */
 
-.body {
+@font-face {
+    font-family: RobotoFlex;
+    src: url("new assets/RobotoFlex.ttf");
+}
+body {
     background-color: var(--aggie-blue);
     color: var(--snow);
-    font-family: "Georgia", serif;
+    font-family: "RobotoFlex", sans-serif;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -34,6 +38,36 @@ palette
 .top-bar{
     margin-left: 80%;
 }
+
+/*
+horizontal bar
+ */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: var(--snow);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    opacity: 0.8;
+    background-color: var(--aero);
+}
+
 
 /*
 Dropdown menu
