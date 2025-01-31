@@ -41,7 +41,9 @@
         }
 
         .image {
-            width: calc(25% - 7.5px);
+            width: calc(33% - 5px);
+            height: auto;
+            object-fit: contain;
         }
 
         .image_container {
@@ -49,22 +51,36 @@
             display: flex;
             gap: 10px;
             flex-wrap: wrap;
-
+            align-items; flex-start;
+            border: 1px solid black;
         }
+
     </style>
     <!--<link rel="stylesheet" href="gallery_style.css">-->
 </head>
 <body style="background-color:var(--aggie-blue)">
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="joinus.html">Join the Team</a></li>
+    <li><a href="sponsors.html">Sponsor the Team</a></li>
+    <li><a href="current.html">Current Project</a></li>
+    <li><a href="history.html">Past Projects</a></li>
+    <li><a href="gallery.html">Image Gallery</a></li>
+</ul>
+
     <div class="large_box">
-        <p> hello</p>
+        <p>Seahorse Submarine Photos</p>
         <div class="image_container">
-            <img src="assets/img/sub3.JPG" alt="second gen poseidon sub" class="image">
-            <img src="assets/img/sub3.JPG" alt="second gen poseidon sub" class="image">
-            <img src="assets/img/sub3.JPG" alt="second gen poseidon sub" class="image">
-            <img src="assets/img/sub3.JPG" alt="second gen poseidon sub" class="image">
-
+            <img src="assets/img/nicesub.JPG" alt="seahorse sub image 1" class="image">
+            <img src="assets/img/team.JPG" alt="seahorse sub image 3" class="image">
+            <img src="assets/img/poseidon1.JPG" alt="seahorse sub image 2" class="image">
+            <img src="assets/img/sub.JPG" alt="seahorse sub image 3" class="image">
+            <img src="assets/img/seahorseblock.png" alt="seahorse sub blocks image" class="image">
         </div>
-
+        <p style="font-size: 15px">from left to right: [desc]</p>
+    </div>
+    <div class="large_box">
+        <p></p>
     </div>
 </body>
 </html>
