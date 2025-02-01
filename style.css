@@ -148,6 +148,16 @@ classes for gallery.html
 
 }
 
+.gallery_image_div:hover img {
+    opacity: 0.3;
+    transition: .3s ease;
+}
+
+.gallery_image_div:hover p {
+    display: flex;
+}
+
+
 .gallery_image {
     width: 100%; /* required so image fits only inside of it's container */
     display: block; /* for some reason this makes things line up a little better */
@@ -157,7 +167,7 @@ classes for gallery.html
     font-size: 15px;
     color: var(--snow);
     flex-wrap: wrap;
-    display: flex;
+    display: none;
     position: absolute;
     top: -5%;
     left: 5%;
