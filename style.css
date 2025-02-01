@@ -145,24 +145,22 @@ classes for gallery.html
 .gallery_image_div { /* container for our image + text together */
     width: calc(33% - 5px);
     position: relative;
-    padding: 0;
-    margin: 0;
+
 }
 
 .gallery_image {
     width: 100%; /* required so image fits only inside of it's container */
+    display: block; /* for some reason this makes things line up a little better */
 }
 
 .gallery_overlay_text {
     font-size: 15px;
     color: var(--snow);
-    margin: 0;
-    padding: 0;
-
-
+    flex-wrap: wrap;
+    display: flex;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /*position: relative;*/
+    top: -5%;
+    left: 5%;
+
+
 }
