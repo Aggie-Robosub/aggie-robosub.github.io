@@ -113,8 +113,8 @@ Dropdown menu
     opacity: 0.7;
 }
 
-/* containers for the images in gallery.html */
-.large_box {
+/* classes for gallery.html */
+.gallery_box {
     border: 2px solid var(--snow);
     margin: 20px;
     padding: 10px;
@@ -122,22 +122,21 @@ Dropdown menu
     flex-direction: column;
 }
 
-.large_box p {
+.gallery_box p {
     font-family: "RobotoFlex", sans-serif;
     font-size: 30px;
     margin-top: 10px;
     margin-bottom: 5px;
     color: var(--snow);
-
 }
 
-.image {
+.gallery_image {
     width: calc(33% - 5px);
     height: auto;
     object-fit: contain;
 }
 
-.image_container {
+.gallery_image_container {
     width: 100%;
     display: flex;
     gap: 10px;
