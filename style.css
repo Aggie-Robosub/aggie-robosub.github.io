@@ -112,3 +112,36 @@ Dropdown menu
 
     opacity: 0.7;
 }
+
+/* containers for the images in gallery.html */
+.large_box {
+    border: 2px solid var(--snow);
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.large_box p {
+    font-family: "RobotoFlex", sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: var(--snow);
+
+}
+
+.image {
+    width: calc(33% - 5px);
+    height: auto;
+    object-fit: contain;
+}
+
+.image_container {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items; flex-start;
+    border: 1px solid black;
+}
