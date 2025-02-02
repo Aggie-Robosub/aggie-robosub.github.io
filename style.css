@@ -183,10 +183,16 @@ classes for gallery.html
 .current_container img { /* keeps images from being rendered larger than the div they are inside */
     width: 100%;
 }
-.current_container p, h1 { /* keeps text from being right next to border or image */
+.current_container p, h1, h2 { /* keeps text from being right next to border or image */
     margin: 10px;
     font-family: "RobotoFlex", sans-serif;
     color: var(--snow);
+}
+.current_container h1 {
+    font-size: 40px;
+}
+.current_container h2 {
+    font-size: 28px;
 }
 .current_subcontainer_small { /* takes up '1' space, half of subcontainer large = 1/3 of div */
     flex: 1;
